@@ -1,0 +1,3 @@
+[env:custom_build]
+extends = env:esp32c3dev
+build_flags = ${env:esp32c3dev.build_flags} -D LOLIN_WIFI_FIX -D USERMOD_AUTO_SAVE
